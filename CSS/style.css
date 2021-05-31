@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+/*Navegação*/
+header{
+    background-color: #cac9c9;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.navegation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+.logo a{
+    color: black;
+}
+
+.logo a:hover{
+    color: rgb(87, 84, 84);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.menu ul li{
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 5s ease all;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    color: black;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(156, 152, 152);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu input{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 27px;
+    width: 25%;
+}
+
+/*Section*/
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .box{
+    background-color: #cac9c9;
+    width: 26%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+}
+
+.container .box h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .box input{
+    width: 100%;
+    height: 45px;
+    border-top: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container .box input:hover{
+    background-color:gray;
+}
+
+/*Meu Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e2e2;
+    height: 8vh;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h3{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
