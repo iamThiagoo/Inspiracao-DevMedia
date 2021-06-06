@@ -52,6 +52,7 @@ header{
 
 .menu ul li a{
     color: black;
+    transition: .3s ease all;
 }
 
 .menu ul li a:hover{
@@ -71,6 +72,7 @@ header{
 .container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 90px;
 }
 
 .container .box{
@@ -93,6 +95,7 @@ header{
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
+    transition: 1s ease all;
 }
 
 .container .box input:hover{
@@ -104,6 +107,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
     background-color: #e5e2e2;
     height: 8vh;
     width: 100%;
